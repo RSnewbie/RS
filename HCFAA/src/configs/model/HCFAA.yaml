@@ -1,0 +1,11 @@
+n_layers: 4
+keep_rate: 0.8
+reg_weight: 1e-05
+learning_rate: 0.001
+cl_weight: [1.0]
+augmentation: edge_drop
+temperature: 0.3
+hyper_num: 64
+embed_size: 64
+hyper_parameters: ["cl_weight"]
+
